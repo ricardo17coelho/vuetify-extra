@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve ./dev/main.js",
     "build": "vue-cli-service build --target lib --name menteora src/plugin.js",
     "build:local": "vue-cli-service build --target lib --name menteora src/plugin.js && npm pack",
-    "lint": "vue-cli-service lint --fix && vue-cli-service lint dev --fix"
+    "lint": "vue-cli-service lint --fix && vue-cli-service lint dev --fix",
+    "docs:dev": "vuepress dev docs --host 0.0.0.0",
+    "docs:build": "vuepress build docs"
   },
   "files": [
     "dist"
@@ -28,6 +30,7 @@
     "vue-cli-plugin-vuetify": "^0.6.3",
     "vue-json-tree-view": "^2.1.4",
     "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.3",
     "vuetify": "^2.0.10",
     "vuetify-loader": "^1.2.2"
   }
