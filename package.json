@@ -16,6 +16,7 @@
   "main": "./dist/menteora.common.js",
   "dependencies": {},
   "devDependencies": {
+    "@mdi/font": "^4.3.95",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
@@ -30,8 +31,8 @@
     "vue-cli-plugin-vuetify": "^0.6.3",
     "vue-json-tree-view": "^2.1.4",
     "vue-template-compiler": "^2.6.10",
-    "vuepress": "^1.0.3",
-    "vuetify": "^2.0.10",
+    "vuepress": "^1.0.4",
+    "vuetify": "^2.0.15",
     "vuetify-loader": "^1.2.2"
   }
 }
